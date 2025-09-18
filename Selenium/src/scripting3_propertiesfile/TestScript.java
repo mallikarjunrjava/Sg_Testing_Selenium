@@ -1,4 +1,4 @@
-package scripting3;
+package scripting3_propertiesfile;
 
 import org.openqa.selenium.WebDriver;
 
