@@ -4,9 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+
+// Scripting1: Linear Way.
+
 public class TestCase_Automation {
     public static void main(String[] args) {
-
+        ts_Automation();
     }
 
     public static void ts_Automation(){

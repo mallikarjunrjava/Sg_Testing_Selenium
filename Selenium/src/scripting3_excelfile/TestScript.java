@@ -3,9 +3,17 @@ package scripting3_excelfile;
 import org.openqa.selenium.WebDriver;
 
 import java.util.Map;
+/*
+Scripting3: Parameterization(Using Excel file)- It is a process of placing the test data in the external source viz,
+Excel file, properties file, json file, DB etc
+write a wrapper method to read the test data and use them script.
 
-public class TestScript extends ReusableMetods {
+Excel File: Map(key and value pair): Single/multiple set of data can be provided.
+*/
+
+public class TestScript extends ReusableMetods3 {
     public static void main(String[] args) {
+
             TS_LoginLogout();
             TS_CreateAndDeleteUser();
     }

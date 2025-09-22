@@ -5,7 +5,15 @@ import org.openqa.selenium.WebDriver;
 
 import java.util.Map;
 
-public class TestScript extends ReusableMetods {
+/*
+Scripting3: Parameterization(Using properies file)- It is a process of placing the test data in the external source viz,
+Excel file, properties file, json file, DB etc
+write a wrapper method to read the test data and use them script.
+
+Prop File: Map(key and value pair): Single set of data. we cant provide multiple set of data.
+*/
+
+public class TestScript extends ReusableMetods3 {
     public static void main(String[] args) {
             TS_LoginLogout();
             TS_CreateAndDeleteUser();
