@@ -2,6 +2,12 @@ package reflection3;
 
 import java.lang.reflect.Method;
 
+/*
+III. By using Object class
+Class cls = Class.forName(<pkgName.className>);
+Object obj = cls.getDeclaredConstructor().newInstance();
+*/
+
 public class DriverClass3 {
     public static void main(String[] args) {
         String filePath = null;

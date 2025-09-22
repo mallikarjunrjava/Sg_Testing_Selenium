@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="test suite">
+    <test name="groups Demo">
+        <groups>
+            <run>
+                <include name="SMOKE"></include>
+                <include name="REGRESSION"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="groups.GroupsDemo"></class>
+        </classes>
+    </test>
+</suite>

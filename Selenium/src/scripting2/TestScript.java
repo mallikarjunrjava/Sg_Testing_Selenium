@@ -2,7 +2,9 @@ package scripting2;
 
 import org.openqa.selenium.WebDriver;
 
-public class TestScript extends ReusableMetods {
+// Scripting2: Reusability through function decomposition.
+
+public class TestScript extends ReusableMetods2 {
     public static void main(String[] args) {
             TS_LoginLogout();
             TS_CreateAndDeleteUser();
